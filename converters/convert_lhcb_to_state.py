@@ -72,11 +72,22 @@ def convert_lhcb_json_to_state_json(input_path, output_path):
                 }
             isobars[tuple_key]["resonances"][resonance_name] = resonance_entry
 
+    # Extract all unique topologies from chains
+    all_topologies = []
+    seen = set()
+    for chain in decay_desc.get("chains", []):
+        topology = chain.get("topology")
+        if topology is not None:
+            t_str = json.dumps(topology)
+            if t_str not in seen:
+                all_topologies.append(topology)
+                seen.add(t_str)
+
     # Compose state json
     state_json = {
         "decay": len(finals) + 1,
         "graph": {
-            "topologies": [decay_desc["reference_topology"]]  # Placeholder, real state- json has more
+            "topologies": all_topologies
         },
         "mainGraph": mainGraph,
         "finalState": {

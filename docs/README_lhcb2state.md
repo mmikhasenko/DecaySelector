@@ -9,7 +9,8 @@ This document describes the logic of the conversion from a `-lhcb-` JSON file (e
    - Particle properties such as `name` and `spin` are preserved. Spin values like "1/2" are converted to floats (e.g., 0.5).
 
 2. **Main Graph Mapping**
-   - does not need to be mapped.
+   - graph.topologies contains all possible topologies that are specified chains[i].topology of the `-lhcb-` JSON
+   - the list comes without duplicates
 
 3. **Intermediate State (Resonances/Isobars)**
    - the `-lhcb-` JSON file describes decay chains in terms of propagators and vertexes,
