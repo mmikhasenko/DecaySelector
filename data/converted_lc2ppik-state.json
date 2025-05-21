@@ -1,0 +1,146 @@
+{
+  "decay": 4,
+  "graph": {
+    "topologies": [[[3, 1], 2]]
+  },
+  "mainGraph": {
+    "tuple": [[3, 1], 2]
+  },
+  "finalState": {
+    "nodes": [0, 1, 2, 3],
+    "finalStateData": {
+      "0": {
+        "spin": 0.5,
+        "parity": null,
+        "name": "Lc"
+      },
+      "1": {
+        "spin": 0.5,
+        "parity": null,
+        "name": "p"
+      },
+      "2": {
+        "spin": 0.0,
+        "parity": null,
+        "name": "pi"
+      },
+      "3": {
+        "spin": 0.0,
+        "parity": null,
+        "name": "K"
+      }
+    }
+  },
+  "intermediateState": {
+    "isobars": {
+      "[3, 1]": {
+        "resonances": {
+          "L1405_Flatte": {
+            "name": "L1405_Flatte",
+            "spin": 0.5,
+            "parity": -1,
+            "tuple": [3, 1]
+          },
+          "L1520_BW": {
+            "name": "L1520_BW",
+            "spin": 1.5,
+            "parity": -1,
+            "tuple": [3, 1],
+            "mass": 1.518467,
+            "width": 0.015195
+          },
+          "L1600_BW": {
+            "name": "L1600_BW",
+            "spin": 0.5,
+            "parity": -1,
+            "tuple": [3, 1],
+            "mass": 1.63,
+            "width": 0.25
+          },
+          "L1670_BW": {
+            "name": "L1670_BW",
+            "spin": 0.5,
+            "parity": -1,
+            "tuple": [3, 1],
+            "mass": 1.67,
+            "width": 0.03
+          },
+          "L1690_BW": {
+            "name": "L1690_BW",
+            "spin": 1.5,
+            "parity": -1,
+            "tuple": [3, 1],
+            "mass": 1.69,
+            "width": 0.07
+          },
+          "L2000_BW": {
+            "name": "L2000_BW",
+            "spin": 0.5,
+            "parity": -1,
+            "tuple": [3, 1],
+            "mass": 1.98819,
+            "width": 0.17926
+          }
+        },
+        "label": "[3, 1]",
+        "tuple": [3, 1]
+      },
+      "[1, 2]": {
+        "resonances": {
+          "D1232_BW": {
+            "name": "D1232_BW",
+            "spin": 1.5,
+            "parity": -1,
+            "tuple": [1, 2],
+            "mass": 1.232,
+            "width": 0.117
+          },
+          "D1600_BW": {
+            "name": "D1600_BW",
+            "spin": 1.5,
+            "parity": -1,
+            "tuple": [1, 2],
+            "mass": 1.64,
+            "width": 0.3
+          },
+          "D1700_BW": {
+            "name": "D1700_BW",
+            "spin": 1.5,
+            "parity": -1,
+            "tuple": [1, 2],
+            "mass": 1.69,
+            "width": 0.38
+          }
+        },
+        "label": "[1, 2]",
+        "tuple": [1, 2]
+      },
+      "[2, 3]": {
+        "resonances": {
+          "K700_BuggBW": {
+            "name": "K700_BuggBW",
+            "spin": 0.0,
+            "parity": -1,
+            "tuple": [2, 3]
+          },
+          "K892_BW": {
+            "name": "K892_BW",
+            "spin": 1.0,
+            "parity": -1,
+            "tuple": [2, 3],
+            "mass": 0.8955,
+            "width": 0.047299999999999995
+          },
+          "K1430_BuggBW": {
+            "name": "K1430_BuggBW",
+            "spin": 0.0,
+            "parity": -1,
+            "tuple": [2, 3]
+          }
+        },
+        "label": "[2, 3]",
+        "tuple": [2, 3]
+      }
+    }
+  }
+}
