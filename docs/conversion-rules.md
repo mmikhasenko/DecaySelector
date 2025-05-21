@@ -10,7 +10,7 @@ This document describes the logic of the conversion from a `-lhcb-` JSON file (e
 
 2. **Main Graph Mapping**
    - graph.topologies contains all possible topologies that are specified chains[i].topology of the `-lhcb-` JSON
-   - the list comes without duplicates
+   - the list should come without duplicates
 
 3. **Intermediate State (Resonances/Isobars)**
    - the `-lhcb-` JSON file describes decay chains in terms of propagators and vertexes,
